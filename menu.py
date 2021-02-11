@@ -16,7 +16,7 @@ class Menu:
     def instruction(self): # display of start menu text
         text = [
             "Red alert ! Our homeland is under siege by an enemy power. ",
-            "You must destroy all enemy aircraft before they enter our domestic airspace.",
+            "You must destroy all enemy aircraft before they enter in our domestic airspace.",
             "Use ARROW KEYS to move your fighter and the SPACE BAR to fire missiles.",
             "Warning ! Don't destroy airliners and avoid the anti-aircraft missiles!",
             "Press the RETURN KEY to start the mission.",

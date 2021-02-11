@@ -11,8 +11,8 @@ class SoundManager:
             'rocket': pygame.mixer.Sound('assets/sounds/surface-to-air-missile.ogg.'),
         }
 
-    def play(self, name): # play sound with name in parameter
-        self.sounds[name].play()
+    def play(self, name, repeat=0): # play sound with name in parameter
+        self.sounds[name].play(repeat)
 
     def stop(self, name): # play sound with name in parameter
         self.sounds[name].stop()

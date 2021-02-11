@@ -50,11 +50,11 @@ class Game:
 
     def game_over(self): # game over
         # put the game back as at the beginning
-        self.sound_manager.stop('play') # stop main music
         self.sound_manager.stop('rocket') # stop rockets sound
         self.all_aircrafts = pygame.sprite.Group() # empty the group
         self.all_airliners= pygame.sprite.Group() # empty the group
         self.rocket_event.all_rockets = pygame.sprite.Group() # empty the group
+        self.plane.all_missiles = pygame.sprite.Group() # empty the group
         self.plane.armor = self.plane.max_armor
         self.rocket_event.reset_percent() 
         self.is_playing = False
