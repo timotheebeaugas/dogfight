@@ -27,7 +27,7 @@ This project uses Python `3.9.0`.
 ```
 pip install -r requirements.txt 
 ```
-### Run data alysis 
+### Run the game 
 ```
 python main.py
 ```
